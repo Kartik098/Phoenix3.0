@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.info-title{
+   font-weight: 400;
+    
+   
+}
+#Select2{
+    display: none !important;
+}
+
+.form-control {
+    width: 100% !important;
+  }
+.form-control2{
+    min-width: 850px!important;
+}
+.form-main{
+    margin: 0 50px;
+    
+}
+.form-main .form-control{
+    
+    width: 60% !important;
+    
+}
+.form{
+    margin: 0 30px;
+}   
+.formcont::placeholder{
+    font-size: medium!important;
+}
+.Select{
+    width: 60% !important;
+    
+}
+
+
+.buttons{
+    margin: 0 auto;
+    margin-right: -50px;
+    text-align: center;
+   
+}
+.save{
+    height: fit-content;
+    padding: 5px;
+    width: 180px;
+    background-color: #08B721;
+    border:1px black solid;
+    margin: 0 5px;
+    border-radius: 3px;
+}
+#edit{
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+}
+.cancel{
+    height: fit-content;
+    padding: 5px;
+    width: 180px;
+    border-radius: 3px;
+    border:1px black solid;
+}
+.t{
+    border-radius: 48%;
+    padding: 0px 9px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px black solid;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.PVEV{
+    margin-bottom: 15px;
+}
+.res{
+    width: 90% !important;
+    margin-left: 20px;
+}
+.formev{
+    
+    
+    margin-left: 20px;
+    text-align: left;
+    width: 90% !important;
+}
+.PV-Form {
+    width: 100% !important;
+    
+  }
+.site-type{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.site-type2{
+    height: 40px;
+    width: 850px;
+    margin-bottom: 20px;
+}
+.show_companys{
+    display: flex;
+    text-align: center;
+
+}
+.company_container{
+    border-radius: 10px;
+    box-shadow: #08B721 2px 3px 3px 0px;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 350px;
+    padding: 25px;
+    transition: 0.5s;
+}
+.company_container:hover{
+    width: 420px;
+    height: 370px;
+}
+.linkbutton{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.linkbutton:hover{
+    background-color: #08B721;
+    color: white;
+}
+.editlinkbutton{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
+    width: 250px!important;
+    
+    transition: 0.3s;
+    margin: 10px;
+    background-color:goldenrod;
+    margin-top: 15px;
+}
+.editlinkbutton:hover{
+   
+    color: black;
+    border: 1px solid black;
+    background-color: transparent;
+}

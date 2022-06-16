@@ -1,0 +1,17 @@
+.logo{
+    width: 400px;
+    height: 100px;
+}
+.add-new-site{
+    padding: 10px;
+    border: 2px black solid;
+    background-color: white;
+    float: right;
+    transition: 0.3s;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+.add-new-site:hover{
+    background-color:#08B721;
+    color: white;
+}

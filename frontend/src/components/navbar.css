@@ -1,0 +1,66 @@
+*{
+    padding:0;
+    margin: 0;
+}
+img{
+    padding: 20px 100px;
+    width:350px;
+    height: 100px;
+}
+nav{
+    border-bottom: 2px black solid;
+}
+ul{
+    list-style-type: none;
+    padding-top: 10px;
+    
+}
+li{
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+}
+.myprofile{
+    padding: 10px;
+    border: 2px black solid;
+    background-color: grey;
+    float: right;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+.navbar{
+    border-top: 2px black solid;
+    border-bottom:2px black solid;
+    line-height: 20px;
+
+}
+.authstyle{
+    font-size: larger;
+    padding: 10px;
+    
+    
+    
+}
+.authstyle2{
+    font-size: larger;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 0.5s;
+    
+}
+.authstyle:hover{
+    color: black;
+}
+.authstyle2:hover{
+    color: black;
+    background-color: #08B721;
+}
+.navbar-side{
+    display: flex;
+}
+li a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}

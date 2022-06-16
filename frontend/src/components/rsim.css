@@ -1,0 +1,149 @@
+#upload_etb{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 40px;
+    border: 2px solid black;
+    width: 550px;
+    padding: 15px;
+    
+    height: fit-content;
+    float: left;
+    /* margin-left: 100px; */
+    display: flex;
+    flex-direction: column; 
+}
+.heading{
+    border: 2px solid black;
+    width: 100%;
+    
+    padding: 6px;
+    
+    
+    height: 40px;
+}
+.heading2{
+    border: 2px solid black;
+    width: 500px;
+    margin: 0 auto;
+    
+}
+.heading3{
+    border: 2px solid black;
+    
+    
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.meter-title{
+    text-align: center;
+    
+ }
+ .meter-title2{
+    text-align: center;
+    
+ 
+}
+.checkboxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 1px;
+}
+.checkbox-group{
+    margin: 0 auto;
+}
+.boxes{
+    display: flex;
+}
+
+.uploadfile{
+    text-align: center;
+    margin-top: 30px;
+}
+.loadinput{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+   
+}
+.textinput{
+    height: 30px;
+    width: 200px!important;
+    margin-right: 50px;
+}
+.textinput2{
+    height: 30px;
+    width: 180px!important;
+    margin-left: 20px;
+}
+.edit_values_section{
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color: #84DB90; */
+}
+.set_values{
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 50px;
+    display: flex;
+}
+.element_section{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.element_section2{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    text-align: center;
+
+}
+.load_section{
+    margin-left: 30px;
+}
+.PV_section{
+    margin-left: 200px;
+}
+.BESS_section{
+    margin-left: 350px;
+}
+.elements{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.buttons2{
+    display: flex;
+    flex-direction: column;
+}
+.large{
+    width: 30%!important;
+    margin: 0 auto!important;
+}
+.extra-large{
+   
+    width: 40%!important;
+    
+    margin: 0 auto!important;
+    padding: 30px!important;
+}
+.simulation_button{
+    height: 70px;
+    background-color: #08B721;
+}

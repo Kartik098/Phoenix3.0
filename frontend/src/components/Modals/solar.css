@@ -1,0 +1,69 @@
+/* .company{
+    width:60%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group{
+    display: flex!important;
+    margin: 10px!important;
+  }
+  label{
+    width: 180px;
+    margin: 10px;
+  }
+  .Solarload{
+    width:20%;
+    margin:30px;
+    margin-right: 100px;
+  }
+  .form-check{
+    width:20%;
+    margin:30px;
+    margin-right: 100px;
+  }
+  .interval{
+    line-height: 10px;
+    width:100%;
+    margin:10px;
+    position:static;
+   }
+  .calculatebutton {
+    padding: 15px 32px;
+    text-align: center!important;
+  }
+  .solarsize{
+    width:160px;
+    margin:20px;
+    padding:10px;
+    margin-left:450px;
+    background-color:lightblue;
+    box-sizing:initial;
+  }
+  .form-group{
+    margin: 10px; 
+    width:auto;
+    
+  
+  }
+  .select{
+    width: 20px!important;;
+  }
+  .row1{
+    width: fit-content;
+  } */
+  .solarcalci{
+    width: 500px;
+    margin: 20px auto;
+  }
+  .Solarload{
+    margin-right: 30px;
+  }
+  .solar-size{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 150px;
+    height: 200px;
+    display: flex!important;
+    flex-direction: row;
+  }

@@ -1,0 +1,81 @@
+import React, { useState } from 'react'
+import Form from 'react-bootstrap/Form'
+import './rsim.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from './navbar';
+
+
+function Rsim() {
+  var array = [
+    
+  ]
+ 
+ 
+  const [ battery, setBattery] = useState(array);
+  function handleBattery(event){
+     
+    setBattery((oldArray)=>
+      ([...oldArray, event.target.value]));
+  
+   console.log(battery)
+  }
+  return (
+    <>
+    <div>
+        <Navbar />
+        <div className='container'>
+        <Form className="flex">
+        
+        <Form.Group controlId="formFile" className="mb-3" id='upload_etb'>
+       <Form.Label className='etblabel'>Upload ETB File </Form.Label><br/>
+       <br/>
+          <Form.Control  type="file"  multiple required/>
+        </Form.Group>
+    
+    
+    <h4 className='info-title'>Desired PV Details</h4>
+        <label htmlFor="group3">Desired PV types</label>
+        {[ 'checkbox'].map((type) => (
+         <div key={`inline-${type}`} className="mb-3 checkbox-group required" id="checkbox">
+           
+      <Form.Check
+        inline
+        label="Meter1"
+        name="pv-type"
+        value="batteryName1"
+        onClick={handleBattery}
+        type={type}
+        id={`inline-${type}-3`}
+       
+      /> <br/>
+       <Form.Check
+        inline
+        label="Meter2"
+        name="pv-type"
+        onClick={handleBattery}
+        
+        value="BatteryName2"
+        type={type}
+        id={`inline-${type}-3`}
+      /> <br/>
+       <Form.Check
+        inline
+        label="Meter"
+        name="pv-type"
+        onClick={handleBattery}
+        type={type}
+        value="BatteryName3"
+        id={`inline-${type}-3`}
+      /> 
+      </div>
+        ))}
+      
+   
+    </Form>
+    </div>
+    </div>
+    </>
+  )
+}
+
+export default Rsim
